@@ -1,0 +1,41 @@
+---
+title: "Sample Blog Post"
+date: "2023-10-01"
+author: "John Doe"
+---
+
+# Welcome to the Sample Blog Post
+
+This is a sample blog post written in MDX. MDX allows you to write JSX within markdown, making it a powerful tool for creating interactive content.
+
+## Why Use MDX?
+
+MDX combines the simplicity of markdown with the power of React components. This means you can:
+
+- Write markdown as usual
+- Embed React components directly within your markdown
+
+## Example Component
+
+Here's an example of a React component embedded within this MDX file:
+
+```jsx
+import { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>Current count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
+
+<Counter />
+```
+
+## Conclusion
+
+MDX is a great way to create rich, interactive content using the power of React and the simplicity of markdown. Give it a try in your next project!
